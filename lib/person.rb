@@ -23,11 +23,11 @@ class Person
   end
 
   def happy?
-    @happiness > 7 ? true : false
+    self.happiness > 7 ? true : false
   end
 
   def clean?
-    @hygiene > 7 ? true : false
+    self.hygiene > 7 ? true : false
   end
 
   def get_paid(amount)
